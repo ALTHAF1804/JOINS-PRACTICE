@@ -42,6 +42,7 @@ Key Concepts Practiced
 * **`INNER JOIN`:** Returning only the rows that have matching values in both tables.
 * **`LEFT JOIN` (or `LEFT OUTER JOIN`):** This obtains all records from the left table and the matched records from the right table. If there are unmatched records on the right, they come out as `NULL`.
 * **`RIGHT JOIN` (or `RIGHT OUTER JOIN`):** Returns all the rows from the right table and the matched rows from the left table. The unmatched rows on the left are returned as `NULL`.
+  
 
 * **`FULL JOIN` (or `FULL OUTER JOIN`):** Returns all rows where available in either left or right table. Where there is no match, the missing side will have `NULL` values.
 
